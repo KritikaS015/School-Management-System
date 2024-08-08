@@ -1,0 +1,7 @@
+/* Homepage.css */
+
+.blur-effect {
+  filter: blur(8px); /* Adjust the blur intensity here */
+  -webkit-filter: blur(1px); /* For Safari */
+  z-index: -1; /* Ensure it's behind other content */
+}

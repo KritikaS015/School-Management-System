@@ -34,7 +34,7 @@ const Homepage = () => {
             Streamline school management, class organization, and add students
             and faculty. Seamlessly track attendance, assess performance, and
             provide feedback. Access records, view marks, and communicate
-            effortlessly..
+            effortlessly.
           </p>
           <div className="flex flex-col items-center gap-4">
             <Link to="/choose" className="w-full">

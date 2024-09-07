@@ -7,6 +7,7 @@ A web-based application to manage student information efficiently, built using t
 - [Project Purpose](#project-purpose)
 - [Technologies](#technologies)
 - [Quick Tour](#quick-tour)
+- [Video Overview](#video-overview)
 - [How to Run the App](#how-to-run-the-app)
 
 ## Project Purpose
@@ -56,6 +57,12 @@ A web-based application to manage student information efficiently, built using t
     <img src="./images/res6.jpeg" height="350" style="margin-right: 10px;" alt="Responsiveness 2">
     
 </p>
+
+## Video Overview
+
+<h2 align="center">Demo Video</h2>
+
+https://github.com/user-attachments/assets/d4825f19-36f0-4a8d-afe7-428b30db4fab
 
 ## How to Run the App
 

@@ -39,12 +39,23 @@ A web-based application to manage student information efficiently, built using t
 ### Responsiveness
 
 <h2 align="center">Responsive Design</h2>
-<!-- <p align="center">
-    <img src="./images/res1.png" height="350" style="margin-right: 10px;" alt="Responsiveness 1">
-    <img src="./images/res2.png" height="350" style="margin-right: 10px;" alt="Responsiveness 2">
-    <img src="./images/res3.png" height="350" style="margin-right: 10px;" alt="Responsiveness 3">
-    <img src="./images/res4.png" height="350" alt="Responsiveness 4">
-</p> -->
+<p align="center">
+    <img src="./images/res1.jpeg" height="350" style="margin-right: 10px;" alt="Responsiveness 1">
+    <img src="./images/res2.jpeg" height="350" style="margin-right: 10px;" alt="Responsiveness 2">
+    
+</p>
+<h2 align="center">Responsive Admin Dashboard</h2>
+<p align="center">
+    <img src="./images/res3.jpeg" height="350" style="margin-right: 10px;" alt="Responsiveness 1">
+    <img src="./images/res4.jpeg" height="350" style="margin-right: 10px;" alt="Responsiveness 2">
+    
+</p>
+<h2 align="center">Responsive Student and Teacher Dashboard</h2>
+<p align="center">
+    <img src="./images/res5.jpeg" height="350" style="margin-right: 10px;" alt="Responsiveness 1">
+    <img src="./images/res6.jpeg" height="350" style="margin-right: 10px;" alt="Responsiveness 2">
+    
+</p>
 
 ## How to Run the App
 
@@ -57,6 +68,7 @@ A web-based application to manage student information efficiently, built using t
    ```
 
 2. **Clone the Repository**:
+
    ```bash
    MONGO_URI='your-mongodb-connection-string'
    JWT_SECRET='your-secret-key'
@@ -64,18 +76,19 @@ A web-based application to manage student information efficiently, built using t
    ```
 
 3. **Install Dependencies and Start the Backend Server**:
- 
-  ```bash
-  cd server
-  npm install
-  npm start
-  ```
+
+```bash
+cd server
+npm install
+npm start
+```
+
 4. **Install Frontend Dependencies and Start the React App**:
-  ```bash
-  cd client
-  npm install
-  npm start
+
+```bash
+cd client
+npm install
+npm start
 
 
 ```
-

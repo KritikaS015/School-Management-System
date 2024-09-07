@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Students from "../assets/modern-school-building-in-summer.webp";
 import Navbar from "../components/Navbar"; // Import Navbar
-import "./Homepage.css"; // Make sure to include the custom CSS file
+import "./Homepage.css"; // Include the custom CSS file
 
 const Homepage = () => {
   return (
@@ -38,18 +38,13 @@ const Homepage = () => {
           </p>
           <div className="flex flex-col items-center gap-4">
             <Link to="/choose" className="w-full">
-              <button className="bg-purple-600 text-white py-2 px-4 rounded w-full">
+              <button className="bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded w-full">
                 Login
               </button>
             </Link>
-            <Link to="/chooseasguest" className="w-full">
-              <button className="border border-purple-600 text-purple-600 py-2 px-4 rounded w-full mt-2 mb-3">
-                Login as Guest
-              </button>
-            </Link>
-            <p className="text-gray-200 text-center text-sm xs:text-xs lg:text-[15px]">
-              Don't have an account?{" "}
-              <Link to="/Adminregister" className="text-purple-300">
+            <p className="text-gray-200 text-center text-sm xs:text-xs md:text-xl lg:text-[15px]">
+              Don't have an account?{"  "}
+              <Link to="/Adminregister" className="text-purple-400 underline">
                 Sign up
               </Link>
             </p>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaSchool } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,10 +11,16 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gray-800 text-white p-2 fixed top-0 w-full z-10 border-b border-[#919294]">
-      <div className="container mx-auto flex justify-between items-center ">
-        <Link to="/" className="text-2xl font-bold lg:mr-10 ">
-          Glorious Public School
-        </Link>
+      <div className="container mx-auto flex justify-between items-center">
+        {/* Flex container for logo and text */}
+        <div className="flex items-center">
+          {/* School icon */}
+          <FaSchool className="text-xl lg:text-2xl mr-2 lg:mr-4" />
+          {/* Title */}
+          <Link to="/" className="text-xl lg:text-2xl font-bold">
+            Glorious Public School
+          </Link>
+        </div>
         <div className="block lg:hidden">
           <button onClick={toggleMenu} className="text-2xl">
             <FaBars />

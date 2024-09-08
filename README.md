@@ -66,7 +66,7 @@ https://github.com/user-attachments/assets/d4825f19-36f0-4a8d-afe7-428b30db4fab
 
 ## How to Run the App
 
-1. **Set Up Environment Variables**:
+1. **Clone the Repository**:
 
    ```bash
    git clone https://github.com/yourusername/student-management-system.git
@@ -74,7 +74,7 @@ https://github.com/user-attachments/assets/d4825f19-36f0-4a8d-afe7-428b30db4fab
 
    ```
 
-2. **Clone the Repository**:
+2. **Set Up Environment Variables**:
 
    ```bash
    MONGO_URI='your-mongodb-connection-string'

@@ -1,0 +1,9 @@
+# .gitattributes
+* text=auto
+
+# Explicitly set the line endings for specific file types
+*.js text eol=lf
+*.jsx text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.md text eol=lf

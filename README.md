@@ -1,6 +1,6 @@
 # Student Management System
 
-A web-based application to manage student information efficiently, built using the MERN stack (MongoDB, Express.js, React.js, Redux, Node.js) with Redux for state management and Tailwind CSS for styling.
+A web-based application to manage student information efficiently, built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with Redux for state management and Tailwind CSS for styling.
 
 ## Table of Contents
 
